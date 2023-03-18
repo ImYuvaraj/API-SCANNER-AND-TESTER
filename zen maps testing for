@@ -1,0 +1,138 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-18 10:38 India Standard Time
+
+NSOCK ERROR [0.6760s] ssl_init_helper(): OpenSSL legacy provider failed to load.
+
+
+
+NSE: Loaded 155 scripts for scanning.
+
+NSE: Script Pre-scanning.
+
+Initiating NSE at 10:38
+
+Completed NSE at 10:38, 0.00s elapsed
+
+Initiating NSE at 10:38
+
+Completed NSE at 10:38, 0.00s elapsed
+
+Initiating NSE at 10:38
+
+Completed NSE at 10:38, 0.00s elapsed
+
+Initiating Parallel DNS resolution of 1 host. at 10:38
+
+Completed Parallel DNS resolution of 1 host. at 10:38, 0.05s elapsed
+
+Initiating SYN Stealth Scan at 10:38
+
+Scanning 192.168.79.27 [1000 ports]
+
+Discovered open port 445/tcp on 192.168.79.27
+
+Discovered open port 135/tcp on 192.168.79.27
+
+Discovered open port 139/tcp on 192.168.79.27
+
+Discovered open port 5357/tcp on 192.168.79.27
+
+Completed SYN Stealth Scan at 10:38, 0.11s elapsed (1000 total ports)
+
+Initiating Service scan at 10:38
+
+Scanning 4 services on 192.168.79.27
+
+Completed Service scan at 10:39, 11.03s elapsed (4 services on 1 host)
+
+Initiating OS detection (try #1) against 192.168.79.27
+
+NSE: Script scanning 192.168.79.27.
+
+Initiating NSE at 10:39
+
+Completed NSE at 10:39, 30.07s elapsed
+
+Initiating NSE at 10:39
+
+Completed NSE at 10:39, 0.07s elapsed
+
+Initiating NSE at 10:39
+
+Completed NSE at 10:39, 0.00s elapsed
+
+Nmap scan report for 192.168.79.27
+
+Host is up (0.00080s latency).
+
+Not shown: 996 closed tcp ports (reset)
+
+PORT     STATE SERVICE       VERSION
+
+135/tcp  open  msrpc         Microsoft Windows RPC
+
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+
+445/tcp  open  microsoft-ds?
+
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+
+|_http-title: Service Unavailable
+
+|_http-server-header: Microsoft-HTTPAPI/2.0
+
+Device type: general purpose
+
+Running: Microsoft Windows 10
+
+OS CPE: cpe:/o:microsoft:windows_10
+
+OS details: Microsoft Windows 10 1809 - 1909
+
+Network Distance: 0 hops
+
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+
+IP ID Sequence Generation: Incremental
+
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+
+
+Host script results:
+
+| smb2-time: 
+
+|   date: 2023-03-18T05:09:08
+
+|_  start_date: N/A
+
+| smb2-security-mode: 
+
+|   311: 
+
+|_    Message signing enabled but not required
+
+
+
+NSE: Script Post-scanning.
+
+Initiating NSE at 10:39
+
+Completed NSE at 10:39, 0.00s elapsed
+
+Initiating NSE at 10:39
+
+Completed NSE at 10:39, 0.00s elapsed
+
+Initiating NSE at 10:39
+
+Completed NSE at 10:39, 0.00s elapsed
+
+Read data files from: C:\Program Files (x86)\Nmap
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 1 IP address (1 host up) scanned in 44.63 seconds
+
+           Raw packets sent: 1016 (45.418KB) | Rcvd: 2044 (87.206KB)
+
